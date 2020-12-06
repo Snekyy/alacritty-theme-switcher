@@ -38,4 +38,5 @@ To set some theme:
 python3 alacritty-theme-switcher -s nord
 ```
 Config changes will take effect immediately:</br>
-![](demonstration.mp4)
+[![Alternate Text]({https://www.youtube.com/embed/lNrcwVEMYKg})]({https://www.youtube.com/embed/lNrcwVEMYKg} "Link Title")
+
