@@ -38,5 +38,4 @@ To set some theme:
 python3 alacritty-theme-switcher -s nord
 ```
 Config changes will take effect immediately:</br>
-![Demonstration](https://www.youtube.com/embed/lNrcwVEMYKg)
-
+demo - https://www.youtube.com/embed/lNrcwVEMYKg
