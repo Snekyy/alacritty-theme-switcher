@@ -18,11 +18,7 @@ touch ~/.config/alacritty/themes/<theme-name>.yml
 ```
 This file should contain only "colors" part of alacritty.yml:</br>
 Like that in [example theme](./examples/nord.yml):
-
-## Usage ##
-
-alacritty-theme-switcher.py [-h] [-s theme] [-l] [-b]</br>
-
+## Usage ## alacritty-theme-switcher.py [-h] [-s theme] [-l] [-b]</br>
 optional arguments:</br>
   -h, --help                    show this help message and exit</br>
   -s theme, --set-theme theme   set theme</br>
@@ -39,3 +35,6 @@ python3 alacritty-theme-switcher -s nord
 ```
 Config changes will take effect immediately:</br>
 ![](https://media.giphy.com/media/POwBlPAJZ7ZMhrj7s3/giphy.gif)
+
+
+Themes were taken from - https://github.com/eendroroy/alacritty-theme
