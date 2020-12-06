@@ -17,7 +17,7 @@ mkdir ~/.config/alacritty/themes
 touch ~/.config/alacritty/themes/<theme-name>.yml
 ```
 This file should contain only "colors" part of alacritty.yml:</br>
-Like that in [example theme](./examples/nord.yml):
+Like in [nord theme](./themes/nord.yml):
 ## Usage ## alacritty-theme-switcher.py [-h] [-s theme] [-l] [-b]</br>
 optional arguments:</br>
   -h, --help                    show this help message and exit</br>
