@@ -2,8 +2,7 @@
 
 import os
 import yaml
-import argparse
-
+from argparse import ArgumentParser
 
 def showThemes():
     # Get all files from themes directory
@@ -14,7 +13,7 @@ def showThemes():
         print(theme)
 
 def setTheme(theme):
-    if not theme+".yml" in os.listdir(path=alacritty_dir+"themes/"):
+    if not os.path.exists(alacritty_dir + "themes/" + theme + ".yml"):
         exit(f"error: theme {theme} doesn't exists")
     with open(alacritty_dir + "alacritty.yml", "r") as cfg:
         cfg = yaml.load(cfg, Loader=yaml.Loader)
@@ -29,7 +28,7 @@ def setTheme(theme):
         
 
 def main():
-    parser = argparse.ArgumentParser(description="Theme switcher \
+    parser = ArgumentParser(description="Theme switcher \
                                      for Alacirtty terminal emulator")
     parser.add_argument("-l", "--list-themes", action="store_true",
                         help="print list of available themes")
